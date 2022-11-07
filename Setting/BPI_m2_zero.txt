@@ -10,6 +10,8 @@
 3. 설치한 BalenaEtcher로 img 파일 flash
 
 4. SD카드 삽입후 바나나파이 전원 on
+	
+	** bananapi ip 알아낸후에 putty로 접속**
 
 5. 초기 아이디 : root / 비밀번호 : 1234 바나나파이 계정생성및 설정
 
