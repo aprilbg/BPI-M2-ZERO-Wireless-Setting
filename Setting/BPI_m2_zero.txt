@@ -1,0 +1,25 @@
+바나나파이 Wireless 세팅 방법
+
+1. BalenaEtcher 설치
+	ref : https://www.balena.io/etcher/
+
+2. BPI_M2_Zero .img 파일 설치 
+	ref : https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/
+	ex) 설치 파일 이름 : Armbian_21.02.1_Bananapim2zero_buster_current_5.10.12_desktop.img
+	
+3. 설치한 BalenaEtcher로 img 파일 flash
+
+4. SD카드 삽입후 바나나파이 전원 on
+
+5. 초기 아이디 : root / 비밀번호 : 1234 바나나파이 계정생성및 설정
+
+6. command창에 
+
+	armbian-config
+	
+	입력
+	
+7. Network -> Hotspot 들어가서 설치 (중간에 사용할 IP선택 창이 나오는데 현재 인터넷이 연결되어있는 IP선택하면됨)
+
+8. 설치완료후 Network -> Hotspot -> 들어가서 아이디 비밀번호 변경 (끝).
+	  	
